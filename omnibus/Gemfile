@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'omnibus', git: 'https://github.com/3ofcoins/chef-omnibus.git', branch: 'for/freebsd'
-gem 'omnibus-software', git: 'https://github.com/3ofcoins/chef-omnibus-software.git', branch: 'for/freebsd'
+gem 'omnibus', git: 'https://github.com/3ofcoins/chef-omnibus.git', branch: 'for/freebsd-chefdk'
+gem 'omnibus-software', git: 'https://github.com/3ofcoins/chef-omnibus-software.git', branch: 'for/freebsd-chefdk'
 
 # pedump pessimistically pins multipart-post to a version from 2013 which makes
 # bundler very unhappy. Remove this when upstream has merged zed-0xff/pedump#6 .
